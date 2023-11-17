@@ -1,5 +1,5 @@
 body {
-    background-color: beige;
+    background-image: url("Media/Images/containerbg.jpg");
 }
 
 .header{
@@ -10,61 +10,141 @@ body {
 }
 
 .container{
-    background-color: aqua;
-    width: 79%;
-    border: 1px black solid;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 75%;
+    border: rgba(255, 255, 255, 0.527) 2px solid;
+    border-radius: 8px;
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
 }
+/*accordion starts*/
+.accordion {
+    background-color: transparent;
+    color: #444;
+    cursor: pointer;
+    padding: 2.5rem;
+    width: 98%;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    margin-top: .5rem;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    border: .3rem solid rgba(255, 255, 255, 0.527);
+    padding: 2.25rem;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: transparent;
+    display: none;
+    overflow: hidden;
+  }
 
-.ancient{
-    border: black 1px solid;
-    width: 90%;
-    height: 5rem;
-    margin: .5rem;
+  #ancient{
+    background-image: url(/Media/Images/ancient\ test.avif);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+  }
+
+  #anubis{
+    background-image: url(/Media/Images/ancient\ test.avif);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+  }
+
+  #dust{
+    background-image: url(/Media/Images/ancient\ test.avif);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+  }
+
+  #inferno{
+    background-image: url(/Media/Images/ancient\ test.avif);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+  }
+
+  #mirage{
+    background-image: url(/Media/Images/ancient\ test.avif);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+  }
+  #nuke{
+    background-image: url(/Media/Images/ancient\ test.avif);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+  }
+  #overpass{
+    background-image: url(/Media/Images/ancient\ test.avif);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+  }
+  #vertigo{
+    background-image: url(/Media/Images/ancient\ test.avif);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+  }
+
+  /*SLIDESHOW STARTS*/
+
+  * {box-sizing: border-box}
+.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6, .mySlides7 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
 }
-.anubis{
-    border: black 1px solid;
-    width: 90%;
-    height: 5rem;
-    margin: .5rem;
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
 }
-.dust{
-    border: black 1px solid;
-    width: 90%;
-    height: 5rem;
-    margin: .5rem;
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
-.inferno{
-    border: black 1px solid;
-    width: 90%;
-    height: 5rem;
-    margin: .5rem;
-}
-.mirage{
-    border: black 1px solid;
-    width: 90%;
-    height: 5rem;
-    margin: .5rem;
-}
-.nuke{
-    border: black 1px solid;
-    width: 90%;
-    height: 5rem;
-    margin: .5rem;
-}
-.overpass{
-    border: black 1px solid;
-    width: 90%;
-    height: 5rem;
-    margin: .5rem;
-}
-.vertigo{
-    border: black 1px solid;
-    width: 90%;
-    height: 5rem;
-    margin: .5rem;
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
 }
