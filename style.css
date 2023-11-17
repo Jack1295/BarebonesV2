@@ -1,0 +1,70 @@
+body {
+    background-color: beige;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    margin: 1rem;
+}
+
+.container{
+    background-color: aqua;
+    width: 79%;
+    border: 1px black solid;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ancient{
+    border: black 1px solid;
+    width: 90%;
+    height: 5rem;
+    margin: .5rem;
+}
+.anubis{
+    border: black 1px solid;
+    width: 90%;
+    height: 5rem;
+    margin: .5rem;
+}
+.dust{
+    border: black 1px solid;
+    width: 90%;
+    height: 5rem;
+    margin: .5rem;
+}
+.inferno{
+    border: black 1px solid;
+    width: 90%;
+    height: 5rem;
+    margin: .5rem;
+}
+.mirage{
+    border: black 1px solid;
+    width: 90%;
+    height: 5rem;
+    margin: .5rem;
+}
+.nuke{
+    border: black 1px solid;
+    width: 90%;
+    height: 5rem;
+    margin: .5rem;
+}
+.overpass{
+    border: black 1px solid;
+    width: 90%;
+    height: 5rem;
+    margin: .5rem;
+}
+.vertigo{
+    border: black 1px solid;
+    width: 90%;
+    height: 5rem;
+    margin: .5rem;
+}
