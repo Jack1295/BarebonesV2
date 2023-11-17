@@ -1,13 +1,38 @@
+*{
+  font-family: Oswald;
+}
+
 body {
-    background-image: url("Media/Images/containerbg.jpg");
+    background-image: url("Media/Images/bodyBG.jpg");
 }
 
 .header{
     display: flex;
-    justify-content: center;
-    background-color: blueviolet;
-    margin: 1rem;
+    justify-content: space-around;
+    margin: 0;
+    color: white;
+    font-size: 2rem;
+    font-style: italic;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 7rem;
+    margin-top: -1rem;
 }
+
+.subhead h2{
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 400;
+  text-wrap: wrap;
+}
+
+.subhead p{
+  color: white;
+  text-align: center;
+  text-wrap: wrap;
+}
+
 
 .container{
     background-color: rgba(0, 0, 0, 0.6);
@@ -31,6 +56,9 @@ body {
     border: none;
     border-radius: 8px;
     margin-top: .5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -48,64 +76,93 @@ body {
   }
 
   #ancient{
-    background-image: url(/Media/Images/ancient\ test.avif);
+    background-image: url(/Media/Images/buttonBG/ancient.png);
     background-position: center;
     background-size: cover;
-    color: white;
+    color: rgb(218, 169, 65);
     font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px ;
   }
 
   #anubis{
-    background-image: url(/Media/Images/ancient\ test.avif);
+    background-image: url(/Media/Images/buttonBG/anubids.png);
     background-position: center;
     background-size: cover;
-    color: white;
+    color: rgb(218, 169, 65);
     font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px ;
   }
 
   #dust{
-    background-image: url(/Media/Images/ancient\ test.avif);
+    background-image: url(/Media/Images/buttonBG/dust.png);
     background-position: center;
     background-size: cover;
-    color: white;
+    color: rgb(218, 169, 65);
     font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px ;
   }
 
   #inferno{
-    background-image: url(/Media/Images/ancient\ test.avif);
+    background-image: url(/Media/Images/buttonBG/inferno.png);
     background-position: center;
     background-size: cover;
-    color: white;
+    color: rgb(218, 169, 65);
     font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px ;
   }
 
   #mirage{
-    background-image: url(/Media/Images/ancient\ test.avif);
+    background-image: url(/Media/Images/buttonBG/mirage.png);
     background-position: center;
     background-size: cover;
-    color: white;
+    color: rgb(218, 169, 65);
     font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px ;
   }
   #nuke{
-    background-image: url(/Media/Images/ancient\ test.avif);
+    background-image: url(/Media/Images/buttonBG/nuke.png);
     background-position: center;
     background-size: cover;
-    color: white;
+    color: rgb(218, 169, 65);
     font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px ;
   }
   #overpass{
-    background-image: url(/Media/Images/ancient\ test.avif);
+    background-image: url(/Media/Images/buttonBG/overpass.png);
     background-position: center;
     background-size: cover;
-    color: white;
+    color: rgb(218, 169, 65);
     font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px ;
   }
   #vertigo{
-    background-image: url(/Media/Images/ancient\ test.avif);
+    background-image: url(/Media/Images/buttonBG/vertigo.png);
     background-position: center;
     background-size: cover;
-    color: white;
+    color: rgb(218, 169, 65);
     font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px ;
+    margin-bottom: .5rem;
+  }
+
+  .btnTitle{
+    background: rgba(56, 55, 55, 0.7);
+    width: 10rem;
+  }
+
+  .title{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: underline;
   }
 
   /*SLIDESHOW STARTS*/
