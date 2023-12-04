@@ -76,7 +76,7 @@ body {
   }
 
   #ancient{
-    background-image: url(/Media/Images/buttonBG/ancient.png);
+    background-image: url(Media/Images/buttonBG/ancient.png);
     background-position: center;
     background-size: cover;
     color: rgb(218, 169, 65);
@@ -86,7 +86,7 @@ body {
   }
 
   #anubis{
-    background-image: url(/Media/Images/buttonBG/anubids.png);
+    background-image: url(Media/Images/buttonBG/anubids.png);
     background-position: center;
     background-size: cover;
     color: rgb(218, 169, 65);
@@ -96,7 +96,7 @@ body {
   }
 
   #dust{
-    background-image: url(/Media/Images/buttonBG/dust.png);
+    background-image: url(Media/Images/buttonBG/dust.png);
     background-position: center;
     background-size: cover;
     color: rgb(218, 169, 65);
@@ -106,7 +106,7 @@ body {
   }
 
   #inferno{
-    background-image: url(/Media/Images/buttonBG/inferno.png);
+    background-image: url(Media/Images/buttonBG/inferno.png);
     background-position: center;
     background-size: cover;
     color: rgb(218, 169, 65);
@@ -116,7 +116,7 @@ body {
   }
 
   #mirage{
-    background-image: url(/Media/Images/buttonBG/mirage.png);
+    background-image: url(Media/Images/buttonBG/mirage.png);
     background-position: center;
     background-size: cover;
     color: rgb(218, 169, 65);
@@ -125,7 +125,7 @@ body {
     letter-spacing: 2px ;
   }
   #nuke{
-    background-image: url(/Media/Images/buttonBG/nuke.png);
+    background-image: url(Media/Images/buttonBG/nuke.png);
     background-position: center;
     background-size: cover;
     color: rgb(218, 169, 65);
@@ -134,7 +134,7 @@ body {
     letter-spacing: 2px ;
   }
   #overpass{
-    background-image: url(/Media/Images/buttonBG/overpass.png);
+    background-image: url(Media/Images/buttonBG/overpass.png);
     background-position: center;
     background-size: cover;
     color: rgb(218, 169, 65);
@@ -143,7 +143,7 @@ body {
     letter-spacing: 2px ;
   }
   #vertigo{
-    background-image: url(/Media/Images/buttonBG/vertigo.png);
+    background-image: url(Media/Images/buttonBG/vertigo.png);
     background-position: center;
     background-size: cover;
     color: rgb(218, 169, 65);
