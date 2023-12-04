@@ -63,7 +63,7 @@ body {
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .active, .accordion:hover {
-    border: .3rem solid rgba(255, 255, 255, 0.527);
+    border: .3rem solid rgba(27, 107, 212, 0.637);
     padding: 2.25rem;
   }
   
